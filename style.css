@@ -1,0 +1,233 @@
+
+    .attribution { font-size: 11px; text-align: center; color: white;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+  body{
+  	background-color:hsl(216, 12%, 8%);
+  	font-family: Overpass;
+  }
+
+  .div1{
+  	background-color: hsl(213, 19%, 18%);
+  	width:20vw;
+  	height: 40vh;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%,-50%);
+  	border-radius: 7%;
+    box-sizing: border-box;
+    padding: 20px;
+    display:;
+  }
+
+ .div1 .img-containeur{
+  	width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: hsl(213 19% 15% / 1);
+  }
+
+  .div1 img{
+  	width: 11px;
+  	position: relative;
+  	top: 36%;
+  	left: 50%;
+  	transform:translate(-50%,-50%);
+  }
+
+  .div1 h3{
+  	color:hsl(0, 0%, 100%);
+  	font-weight: 400;
+  	word-spacing: -2px;
+    margin-bottom: -5px;
+  }
+
+  .div1 p{
+  	font-size: 0.6em;
+  	color:hsl(217, 12%, 63%);
+    line-height: 14px;
+  }
+
+  .button-containeur{
+    width: 95%;
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: space-evenly;
+    position: absolute;
+    top: 60%;
+    left: 3%;
+  }
+
+  .button1,.button2,.button3,.button4,.button5{
+  	width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    background-color: hsl(213 19% 15% / 1);
+    color:hsl(217, 12%, 63%);
+    font-size: 0.7em;
+    font-weight: 700;
+  }
+
+  .button1:hover,.button2:hover,.button3:hover,.button4:hover,.button5:hover{
+  	background-color: hsl(25, 97%, 53%);
+  	color:hsl(0, 0%, 100%);
+  }
+  .button1 span,.button2 span,.button3 span,.button4 span,.button5 span{
+  	display: inline-block;
+  	position: relative;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%,-50%);
+  }
+
+  	.submitButton-containeur{
+  		position: relative;
+  		top: 28%;
+  		height:30px;
+  		background-color:hsl(25, 97%, 53%);
+  		color: hsl(0,0%,100%);
+  		font-size: 0.7em;
+  		border-radius: 20px;
+  	}
+
+  	.submitButton-containeur:hover{
+  		background-color:hsl(0,0%,100%);
+  		color:hsl(25, 97%, 53%);
+  	}
+
+  	.submitButton-containeur span{
+  		display: inline-block;
+  		position: relative;
+  		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%,-50%);
+  	}
+
+
+  
+
+
+
+  .div2{
+  	background-color: hsl(213, 19%, 18%);
+    width:20vw;
+    height: 40vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 7%;
+    box-sizing: border-box;
+    padding: 0px 27px;
+    display: none;
+  }
+
+  .img-containeur2{
+    transform: translate(-90%,3%) scale(0.6);
+    width: min-content;
+    height: min-content;
+    margin-left: 60px;
+    position: relative;
+    left: 50%;
+  }
+
+  .paragraphe-containeur{
+    background-color: hsl(213 19% 15% / 1);
+    height: 8%;
+    width: 55%;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: -5%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .paragraphe1{
+    font-size: 0.6em;
+    color: hsl(25, 97%, 53%);
+    transform: translateY(50%);
+  }
+
+  .div2 h3{
+    color: hsl(0, 0%, 100%);
+    font-size: 1em;
+    margin: 0px;
+    position: relative;
+    top: 3%;
+    left: 45%;
+    transform: translate(-15%,0%);
+  }
+
+  .paragraphe2{
+    font-size: 0.6em;
+    color:hsl(217, 12%, 63%);
+    line-height: 14px;
+    text-align: center;
+    position: relative;
+    top: 5%;
+  }
+
+  .selected{
+    color: white;
+    background-color: grey;
+  }
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+  .div1 {
+    font-size: 1.5em;
+    transform: scale(1.7) translate(-50%, -50%);
+    width: 50%;
+    position: absolute;
+    top: 127%;
+    left: 67%;
+  }
+
+  .div2 {
+  }
+
+  .div1 p{
+    font-size: 0.7em;
+    margin: 0;
+  }
+
+  .button-containeur {
+        
+  }
+
+  .submitButton-containeur {
+    font-weight: bolder;
+    letter-spacing: 2px;
+  }
+
+  .div1 .img-containeur{
+    width: 43px;
+    height: 43px;
+  }
+
+  .img-containeur img {
+    position: relative;
+    top: 10%;
+    left: 50%;
+  }
+
+  .img-containeur2 img {
+    
+  }
+
+  .paragraphe1 {
+    
+  }
+
+  .paragraphe2 {
+    
+  }
+}
